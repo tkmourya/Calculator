@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> User details</title>
+    </head>
+    <body>
+        <form action="https://www.kodnest.com">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <lable>First Name</lable>
+                <input type="text" required name="fname" id="fname" placeholder="Ex: Tarun"><br><br>
+                <lable>Middle Name</lable>
+                <input type="text" required name="fname" id="fname" placeholder="Ex: Kumar"><br><br>
+                <lable>Last Name</lable>
+                <input type="text" required name="fname" id="fname" placeholder="Ex: Mourya"><br><br>
+                <lable>Age</lable>
+                <input type="number" required name="age" id="age" placeholder="Ex: 22"><br><br>
+                <lable>DOB</lable>
+                <input type="date" required name="dob" id="bob"><br><br>
+                <lable>Email</lable>
+                <input type="email" required name="email" id="email" placeholder="Ex: Mourya@gmail.com"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Education Details</legend>
+                <label>Department</label>
+                <input type="radio" id="me" name="dept" required>
+                <label>ME</label>
+                <input type="radio" id="ce" name="dept" required>
+                <label>CE</label>
+                <input type="radio" id="ee" name="dept" required>
+                <label>EE</label> 
+                <input type="radio" id="ece" name="dept" required>
+                <label>ECE</label>
+                <input type="radio" id="cs" name="dept" required>
+                <label>CS</label><br><br>
+                <label> Passing Year Of Graduation</label>
+                <input list="pyog" id="year" name="year">
+                <datalist id="pyog">
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>o
+                    <option>2022</option>
+                </datalist><br><br>
+                <label>Course</label>
+                <input list="c" id="course" name="course">
+                <datalist id="c">
+                    <option>MCP1</option>
+                    <option>MCP2</option>
+                </datalist><br><br>
+                <label>Skills</label>
+                <input type="checkbox" id="1" name="skill">
+                <label>HTML</label>
+                <input type="checkbox" id="2" name="skill">
+                <label>JAVA</label>
+                <input type="checkbox" id="3" name="skill">
+                <label>CSS</label>
+                <input type="checkbox" id="4" name="skill">
+                <label>JAVASCRIPT</label>
+                <input type="checkbox" id="5" name="skill">
+                <label>PYTHON</label>
+            </fieldset><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
