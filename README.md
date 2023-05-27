@@ -1,3 +1,3 @@
 # CALCULATOR
-simple form using html only
+simple form using html, css and js
 
